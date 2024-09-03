@@ -95,7 +95,7 @@ async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGr
 try{
 if (!q) return await reply(imgmsg)
 if(isUrl(q) && !ytreg(q)) return await reply(imgmsg)
-if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 THENU - ＭＤ 🧚]
 
   *SELECT TYPE*`
 
@@ -117,11 +117,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
-					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
+					title: '🧚 THENU - ＭＤ 🧚',
+					body: 'Devoloped by Thenula Panapiti',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -129,7 +129,7 @@ const listMessage = {
 
 return await conn.replyList(from, listMessage ,{ quoted : mek })				      
 }
-if(ytreg(q)){let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(ytreg(q)){let dat = `[🧚 THENU - ＭＤ 🧚]
 
 *SELECT SONG TYPE*`
 const sections = [
@@ -155,7 +155,7 @@ return await conn.replyList(from, listMessage ,{ quoted : mek })
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `[🧚 THENU - ＭＤ 🧚]
 
    *YT DOWNLOADER*
 
@@ -190,11 +190,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 Thenu - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -225,7 +225,7 @@ async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGr
 try{
 if (!q) return await reply(imgmsg)
 if(isUrl(q) && !ytreg(q)) return await reply(imgmsg)
-if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 Thenu - ＭＤ 🧚]
 
   *SELECT TYPE*`
 
@@ -252,11 +252,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 Thenu - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -264,7 +264,7 @@ const listMessage = {
 
 return await conn.replyList(from, listMessage ,{ quoted : mek }) 				      
 }
-if(ytreg(q)){let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(ytreg(q)){let dat = `[🧚 Thenu - ＭＤ 🧚]
 
 *SELECT SONG TYPE*`
 const sections = [
@@ -296,7 +296,7 @@ return await conn.replyList(from, listMessage ,{ quoted : mek })
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `[🧚 Thenu - ＭＤ 🧚]
 
    *YT DOWNLOADER*
 
@@ -336,11 +336,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 Thenu - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -372,7 +372,7 @@ async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGr
 try{
 if (!q) return await reply(imgmsg)
 if(isUrl(q) && !ytreg(q)) return await reply(imgmsg)
-if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 THENU - ＭＤ 🧚]
 
   *SELECT TYPE*`
 
@@ -394,11 +394,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 THENU - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -406,7 +406,7 @@ const listMessage = {
 
 return await conn.replyList(from, listMessage ,{ quoted : mek }) 				      
 }
-if(ytreg(q)){let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(ytreg(q)){let dat = `[🧚 THENU - ＭＤ 🧚]
 
 *SELECT SONG TYPE*`
 const sections = [
@@ -433,7 +433,7 @@ return await conn.replyList(from, listMessage ,{ quoted : mek })
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `[🧚 THENU - ＭＤ 🧚]
 
    *YT DOWNLOADER*
 
@@ -469,11 +469,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 THENU - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -496,7 +496,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, prefix, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+let dat = `[🧚 THENU - ＭＤ 🧚]
 
   *SELECT SONG TYPE*`
 
@@ -519,11 +519,11 @@ let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 THENU - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -544,7 +544,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, prefix, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+let dat = `[🧚 THENU - ＭＤ 🧚]
 
   *SELECT SONG TYPE*`
 
@@ -572,11 +572,11 @@ let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: '🧚 THENU - ＭＤ 🧚',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -990,7 +990,7 @@ async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGr
 try{
 if (!q) return await reply(imgmsg)
 if(isUrl(q) && !ytreg(q)) return await reply(imgmsg)
-if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 THENU - ＭＤ 🧚]
 
   *SELECT TYPE*`
 const buttons = []
@@ -1004,7 +1004,7 @@ return await conn.buttonMessage(from, buttonMessage, mek)}
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `┌───[🧚 Thenu - ＭＤ 🧚]
 
    *YT DOWNLOADER*
 
