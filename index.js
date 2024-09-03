@@ -21,22 +21,21 @@ const { File } = require('megajs')
 const path = require('path')
 const msgRetryCounterCache = new NodeCache()
 const prefix = '.'
-const ownerNumber = ['94766943622']
+const ownerNumber = ['94757096717']
 const l = console.log
 var { updateCMDStore,isbtnID,getCMDStore,getCmdForCmdId,connectdb,input,get,updb,updfb } = require("./lib/database")
 
 //===================SESSION============================
-if (!fs.existsSync(__dirname + '/session/creds.json')) {
-  if (config.SESSION_ID) {
-  const sessdata = config.SESSION_ID.replace("IZUMI=","")
-  const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
-  filer.download((err, data) => {
-    if (err) throw err
-    fs.writeFile(__dirname + '/session/creds.json', data, () => {
-console.log("Session download completed !!")
-    })
-  })
-}}
+if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
+if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+const sessdata = config.SESSION_ID
+const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
+filer.download((err, data) => {
+if(err) throw err
+fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
+console.log("Session downloaded ✅")
+})})}
+
 // <<==========PORTS===========>>
 const express = require("express");
 const app = express();
@@ -45,7 +44,7 @@ const port = process.env.PORT || 8000;
 async function connectToWA() {
   const { version, isLatest } = await fetchLatestBaileysVersion()
   console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)
-  const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
+  const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
   const conn = makeWASocket({
     logger: P({ level: "fatal" }).child({ level: "fatal" }),
     printQRInTerminal: true,
@@ -73,7 +72,7 @@ fs.readdirSync("./plugins/").forEach((plugin) => {
 console.log('Plugins installed ✅')
 await connectdb()
 await updb()
-console.log('QUEEN-IZUMI-MD connected ✅')
+console.log('Thenu-MD-V1 connected ✅')
     }
   })
 
@@ -151,11 +150,11 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
-body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+title: '📡Thenu - ＭＤ - v1',
+body: 'Deployed Thenula Panapiti',
 mediaType: 1,
 sourceUrl: "https://wa.me/94766943622" ,
-thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
 }
@@ -188,11 +187,11 @@ const textmsg = await conn.sendMessage(from, { text: buttonMessage ,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
-body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+title: '📡 Thenu - ＭＤ - V1 ',
+body: '💰 Deployed By Thenula Panapiti',
 mediaType: 1,
-sourceUrl: "https://wa.me/94766943622" ,
-thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+sourceUrl: "https://wa.me/94757096717" ,
+thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
 }
@@ -211,11 +210,11 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
-body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+title: '📡 Thenu - ＭＤ - V1 ',
+body: '💰 Deployed By Thenula Panapiti',
 mediaType: 1,
-sourceUrl: "https://wa.me/94766943622" ,
-thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+sourceUrl: "https://wa.me/94757096717" ,
+thumbnailUrl: 'https://i.ibb.co/hy0CnW9/Thenu-md.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
 }
